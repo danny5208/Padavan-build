@@ -44,7 +44,7 @@ jobs:
         wget -t5 --timeout=20 --no-check-certificate -O htop-3.0.2.tar.gz https://github.com/hanwckf/rt-n56u/raw/master/trunk/user/htop/htop-3.0.2.tar.gz
          if [ ! -f htop-3.0.2.tar.gz ] ; then
          echo "htop-3.0.2.tar.gz not found "
-		     exit 1 
+         exit 1 
          fi
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
